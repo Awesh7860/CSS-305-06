@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.maindiv{
+width: 100vw;
+height: 100vh;
+margin-left: auto;
+}
+.navdiv{
+    width:100%;
+    height: 15%;
+    display: flex;
+}
+.navleftsection{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+}
+.navleftsection h1{
+    color: #0a66c2;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.navleftsection i{
+    color: #0a66c2;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.navrightsection{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    margin-left: 2rem;
+}
+.navrightsectionleft{
+    width: 59.5%;
+    height: 100%;
+    display: flex;
+}
+.div1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.div1 img,.div2 img,.div3 img,.div4 img{
+    margin-top: 0.5rem;
+}
+.div1 p,.div2 p,.div3 p,.div4 p{
+    font-weight: 300;
+    color: rgb(90, 89, 89);
+}
+.div2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div3{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div4{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div4 i{
+    margin-top: 0.2rem;
+}
+.div4 p{
+    margin-top: 0.2rem;
+}
+.navrightsectionright{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navrightsectionright button{
+    background-color: white;
+    color: #0a66c2;
+    border: 0.3px solid #0a66c2;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.navrightsectionright h4{
+    color:rgb(56, 55, 55);
+    margin-bottom: 1rem;
+}
+.divt{
+    width: 0.5%;
+    height: 100% ;
+}
+.divline{
+    width: 100%;
+    height: 40%;
+    border-right: 1px solid rgb(80, 79, 79);
+    margin-top: 1rem;
+}
+.sectiondiv{
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+.leftsectiondiv{
+    width: 40%;
+    height: 80%;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rightsectiondiv {
+    width:50%;
+    height: 100%;
+}
+.rightsectiondiv img{
+    width:80% ;
+    height: 100%;
+    margin-left: 4rem;
+}
+.leftsectiondiv input{
+width: 70%;
+height: 2.8rem;
+}
+.hrdiv{
+    display: flex;
+    align-items: center;
+}
+.leftsectiondiv h1{
+    font-weight: 300;
+    color: rgb(83, 83, 83);
+    font-size: 3rem;
+}
+.leftsectiondiv p{
+font-size: small;
+}
+span{
+    color: #0a66c2;
+    font-weight: bold;
+}
+button{
+    width: 70%;
+height: 2.8rem;
+background-color: #0a66c2;
+border: none;
+border-radius: 20px;
+color: white;
+font-size: medium;
+font-weight: 500;
+}
+hr{
+    width: 31%;
+    margin: 10px;
+}
+::placeholder{
+    padding-left:  1rem;
+    font-weight: 500;
+}
+.lastdiv{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
